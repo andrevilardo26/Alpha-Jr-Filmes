@@ -30,7 +30,7 @@ body{
 }
 .aside{
 	margin-bottom: 15px;
-	border:1px solid #33ccff;
+	border:1px solid #00b3b3;
 	background-color: #fff;
 	padding:5px;
 }
@@ -49,15 +49,15 @@ a{
 
 a:hover{
 	text-decoration: none;
-	color:#33ccff;
+	color:#00e6e6;
 }
 
 /*Navbar*/
 nav.navbar-transparent{
 	width: 100%;
 	padding: 10px 0px;
-	background-color:black;
-	/*rgba(25,25,112,0.9);*/
+	background:linear-gradient(#00141a,black);
+	
 
 }
 
@@ -71,7 +71,7 @@ nav.navbar-transparent{
 }
 
 .navbar-light .navbar-nav .nav-link:hover, footer a:hover {
-	color:#33ccff;
+	color:#00b3b3;
 }
 
 /*Header*/
@@ -83,7 +83,7 @@ header{
 
 #capa{
 	height: 150px;
-	background-color:black; 
+	background-color:#00141a; 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -132,7 +132,7 @@ header{
 
 
 .btn-light{
-	background-color:#33ccff;
+	background-color:#00b3b3;
 	color: #fff;
 	border-color: #00ace6;
 }
@@ -140,7 +140,7 @@ header{
 .btn-light:hover{
 	background-color:#00ffff;
 	color: #fff;
-	border-color:#4dffff ;
+	border-color:#00b3b3 ;
 }
 
 /*Index*/
@@ -242,7 +242,7 @@ header{
 	background-color: #fff;
 	padding: 10px;
 	border-radius: 25px;
-	border: 1px solid #4dffff;
+	border: 1px solid #00b3b3;
 }
 
 .logando{
@@ -260,7 +260,7 @@ header{
 	background-color: #fff;
 	padding: 10px;
 	border-radius: 15px;
-	border: 1px solid #4dffff ;
+	border: 1px solid #00b3b3 ;
 }
 
 
@@ -313,7 +313,7 @@ header{
 
 .perfilEdicao{
 	background-color: #fff;
-	border: 1px solid #4dffff ;
+	border: 1px solid #00b3b3 ;
 	display: flex;
 	padding: 10px;
 	margin-bottom: 10px;
@@ -408,8 +408,8 @@ header{
 }
 .titulo{
 	background: #fff;
-	border:1px solid #2585C7;
-	color:#2585C7;
+	border:1px solid #00b3b3;
+	color:black;
 	font-variant: bold;
 	font-weight: 500;
 	font-size: 20px;
@@ -422,9 +422,9 @@ header{
 	background: #fff	;
 	padding: 5px 5px 0px 0px;
 	border-top:0;
-	border-left: 1px solid  #2585C7;
-	border-right: 1px solid  #2585C7;
-	border-bottom: 1px solid  #2585C7;
+	border-left: 1px solid  #00b3b3;
+	border-right: 1px solid  #00b3b3;
+	border-bottom: 1px solid  #00b3b3;
 }
 
 .catalogo a{
@@ -434,9 +434,17 @@ header{
 
 .catalogo a:hover{
 	text-decoration: none;
-	color:#0080ff
+	color:#00b3b3
 }
 
+.cad{
+    float: right;
+    margin-bottom: 15px;
+padding:5px;
+    height: 50%;
+    image-orientation: 20%;
+  
+}
 .butao{
 	float: right;
 	padding: 2px 2px 2px 1px;
@@ -481,22 +489,8 @@ header{
 	width:70%;
 	padding: 10px;
 }
-/*calendario*/
-.bg-calendario{
-	background-color: #fff;
-	
-}
 
-.calendario{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.bg-calendario img{
-	width: 75%;
-    height: 75%;
-}
 
 .titulo-list{
 	font-size: 20px;
@@ -647,7 +641,7 @@ header{
 
 /*footer*/
 footer{
-	background-color:black;
+	background:linear-gradient(#00141a,black);
 	width: 100%;
 	height: 70px;
 	margin-top: 20px;
@@ -865,14 +859,6 @@ footer{
 		text-align: left;
 	}
 
-	.bg-calendario{
-		margin-bottom: 10px;
-	}
 
-	.calendario img{
-		width: 90%;
-	}
-
-}
 
 
